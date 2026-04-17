@@ -279,3 +279,7 @@ Artifacts/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
+# SQLite runtime database files
+*.db
+*.db-shm
+*.db-wal
